@@ -87,19 +87,19 @@ function App() {
     <>
       <div class="flex">
         <div class=" min-h-[1020px] bg-red-600 w-[30vw] px-4">
-          <h1 class="font-serif text-2xl text-center mt-10 text-white mb-[2vh]">
+          <h1 class="font-serif text-2xl text-center mt-10 text-white mb-[1vh]">
             Pratik Ghotane
           </h1>
-          <div className="border mx-32 mb-[2vh]"></div>
+          <div className="border mx-16 mb-[1vh]"></div>
           <p className="text-white text-sm text-center font-serif font-extralight ">
             Software Engineer(Frontend Developer)
           </p>
           <div className="mt-[3vh] text-white">
             <h3 className="font-serif text-white text-xl mb-2">Details</h3>
-            <p>Belgaum, 591237</p>
-            <p>India</p>
-            <p>8660309675</p>
-            <p>pratikghotaneo@gmail.com</p>
+            <p className="text-sm">Belgaum, 591237</p>
+            <p className="text-sm">India</p>
+            <p className="text-sm">8660309675</p>
+            <p className="text-sm">pratikghotaneo@gmail.com</p>
           </div>
           <div className="mt-[3vh]">
             <h3 className="font-serif text-white text-xl">Skills</h3>

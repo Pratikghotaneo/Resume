@@ -8,27 +8,27 @@ function App() {
   const skills = [
     {
       name: "React",
-      percentage: "w-[80%]",
+      percentage: "w-[90%]",
     },
     {
       name: "JavaScript",
-      percentage: "w-[80%]",
+      percentage: "w-[90%]",
     },
     {
       name: "React Native",
-      percentage: "w-[60%]",
+      percentage: "w-[75%]",
     },
     {
       name: "TailwindCSS",
-      percentage: "w-[80%]",
+      percentage: "w-[90%]",
     },
     {
       name: "Bootstrap",
-      percentage: "w-[80%]",
+      percentage: "w-[90%]",
     },
     {
       name: "JQuery",
-      percentage: "w-[80%]",
+      percentage: "w-[90%]",
     },
     {
       name: "Rest API's",
@@ -36,11 +36,11 @@ function App() {
     },
     {
       name: "Redux",
-      percentage: "w-[75%]",
+      percentage: "w-[85%]",
     },
     {
       name: "NodeJS",
-      percentage: "w-[70%]",
+      percentage: "w-[90%]",
     },
     {
       name: "Angular",
@@ -48,23 +48,38 @@ function App() {
     },
     {
       name: "HTML/CSS",
-      percentage: "w-[80%]",
+      percentage: "w-[90%]",
     },
     {
       name: "MongoDB",
-      percentage: "w-[70%]",
+      percentage: "w-[80%]",
     },
     {
       name: "MySQL",
-      percentage: "w-[80%]",
+      percentage: "w-[90%]",
     },
     {
       name: "GIT",
-      percentage: "w-[80%]",
+      percentage: "w-[90%]",
     },
     {
       name: "SQL",
+      percentage: "w-[90%]",
+    },
+  ];
+
+  const Languages = [
+    {
+      name: "English",
+      percentage: "w-[90%]",
+    },
+    {
+      name: "Hindi",
       percentage: "w-[80%]",
+    },
+    {
+      name: "Marathi",
+      percentage: "w-[90%]",
     },
   ];
 
@@ -79,10 +94,23 @@ function App() {
           <p className="text-white text-sm text-center font-serif font-extralight ">
             Software Engineer(Frontend Developer)
           </p>
+          <div className="mt-[3vh] text-white">
+            <h3 className="font-serif text-white text-xl mb-2">Details</h3>
+            <p>Belgaum, 591237</p>
+            <p>India</p>
+            <p>8660309675</p>
+            <p>pratikghotaneo@gmail.com</p>
+          </div>
           <div className="mt-[3vh]">
             <h3 className="font-serif text-white text-xl">Skills</h3>
             {skills.map((item) => (
-              <SkillComponent skill={item} showProgress={true}/>
+              <SkillComponent skill={item} showProgress={true} />
+            ))}
+          </div>
+          <div className="mt-[3vh]">
+            <h3 className="font-serif text-white text-xl">Languages</h3>
+            {Languages.map((item) => (
+              <SkillComponent skill={item} showProgress={true} />
             ))}
           </div>
         </div>

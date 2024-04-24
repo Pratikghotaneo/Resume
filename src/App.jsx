@@ -86,7 +86,7 @@ function App() {
   return (
     <>
       <div class="flex">
-        <div class=" min-h-[1028px] bg-red-600 w-[30vw] px-4">
+        <div class=" min-h-[1220px] bg-red-600 w-[30vw] px-4">
           <h1 class="font-serif text-2xl text-center mt-10 text-white mb-[1vh]">
             Pratik Ghotane
           </h1>
